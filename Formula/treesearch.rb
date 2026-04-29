@@ -1,20 +1,20 @@
 class Treesearch < Formula
   desc "Structure-aware document search CLI. Fast keyword matching over hierarchical document trees."
   homepage "https://github.com/shibing624/TreeSearch"
-  version "1.0.8"
+  version "1.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/shibing624/TreeSearch/releases/download/v1.0.8/treesearch-aarch64-apple-darwin.tar.xz"
-      sha256 "1e280cd4e6c74c543e46b5dafce5ebfe06ab1c1670bbfe46856723ec6c118263"
+      url "https://github.com/shibing624/TreeSearch/releases/download/v1.1.1/treesearch-aarch64-apple-darwin.tar.xz"
+      sha256 "7ec798c9b451d841b62e3b4e0656a98a53dd9872ac3c9b61ead1537ea2a51cca"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/shibing624/TreeSearch/releases/download/v1.0.8/treesearch-x86_64-apple-darwin.tar.xz"
-      sha256 "ed5c2f37c7ddc4218bacdb1f6c8223ae71fc3d511406634fcef22ee78d1a5e21"
+      url "https://github.com/shibing624/TreeSearch/releases/download/v1.1.1/treesearch-x86_64-apple-darwin.tar.xz"
+      sha256 "fda3f4541164b5a8c3ff9d614941ebac18c84619cd8944b3962f5e9837ef1753"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/shibing624/TreeSearch/releases/download/v1.0.8/treesearch-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "1295364831ffeb3f46611b469b59f86a95840b031f1b7827998f55144a03eded"
+    url "https://github.com/shibing624/TreeSearch/releases/download/v1.1.1/treesearch-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "0bc61962c18546051868c90eb72e453f7b43b7cb9c8012c85fa02553271db5c6"
   end
   license "Apache-2.0"
 
